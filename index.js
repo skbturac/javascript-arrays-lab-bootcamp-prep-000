@@ -1,7 +1,10 @@
 // Add your functions and code here
 
 var kittens = ["Milo", "Otis", "Garfield"]
-var 
+
+function appendKitten(name){
+  return array.slice(...kittens,name)
+}
 
 function destructivelyAppendKitten(name){
 return array.slice(...kittens,name)
