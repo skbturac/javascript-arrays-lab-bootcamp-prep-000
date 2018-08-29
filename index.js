@@ -3,5 +3,5 @@
 var kittens = ["Milo", "Otis", "Garfield"]
 
 function destructivelyAppendKitten(name){
-return array.appendKitten(...kittens,name)
+return array.slice(...kittens,name)
 }
